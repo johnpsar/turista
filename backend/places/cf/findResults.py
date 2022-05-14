@@ -9,13 +9,13 @@ def results(location):
 
     if location == "Athens":
         df = pd.read_csv(
-            "../../cassini-hackathon-frontend/src/assets/points_of_interest/athens/athens.csv")
+            "../frontend/src/assets/points_of_interest/athens/athens.csv")
     elif location == "Rome":
         df = pd.read_csv(
-            "../../cassini-hackathon-frontend/src/assets/points_of_interest/rome/rome.csv")
+            "../frontend/src/assets/points_of_interest/rome/rome.csv")
     else:
         df = pd.read_csv(
-            "../../cassini-hackathon-frontend/src/assets/points_of_interest/paris/paris.csv")
+            "../frontend/src/assets/points_of_interest/paris/paris.csv")
 
     li = df.values.tolist()
 
