@@ -105,7 +105,7 @@ def calcultateResults():
     plt.legend(["train", "test"], loc="upper left")
     # plt.show()
 
-    model.save("save.tf")
+    # model.save("save.tf")
 
     # RECOMMENDATIONS
     place_df = pd.read_csv('places/cf/recommendations.csv')
